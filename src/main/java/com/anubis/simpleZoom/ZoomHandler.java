@@ -39,7 +39,6 @@ public class ZoomHandler {
 				if (event.getAction() == InputConstants.PRESS) {
 					isZoom = true;
 				}
-
 			}
 		}
 	}
@@ -57,6 +56,7 @@ public class ZoomHandler {
 			}
 			event.setCanceled(true);
 		}
+		
 
 	}
 
